@@ -1,4 +1,5 @@
 import React, {ChangeEvent, FC} from 'react';
+
 interface DecimalInputProps {
     onChange(val: string, e: ChangeEvent): void;
     value?: string;
@@ -6,6 +7,7 @@ interface DecimalInputProps {
 }
 
 const floatRegExp = /^-?\d*,?\d*$/g;
+
 const DecimalInput: FC<DecimalInputProps> = ({onChange, value, className}) => {
     function handleInputChange (e: ChangeEvent<HTMLInputElement>) {
         const val = e.target.value;

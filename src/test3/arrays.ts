@@ -1,4 +1,5 @@
 export {};
+
 function getUniqueValues (A: number[], B: number[]): number[] {
     const dict = B.reduce((acc, b) => {
         acc[b] = b;
