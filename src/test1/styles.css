@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container__item {
+    text-align: center;
+    color: #ffffff;
+}
+
+.side {
+    background-color: gray;
+}
+
+.middle-1 {
+    flex: 1;
+    background-color: #000000;
+}
+
+.middle-2 {
+    flex: 2;
+    background-color: blue;
+}
